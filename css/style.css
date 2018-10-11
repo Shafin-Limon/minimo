@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+.wrapper1, .wrapper2 {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper1 {
+    width: 90%;
+}
+
+.wrapper2 {
+    width: 80%;
+}
+
+.f_ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+}
+
+
+/* header start */
+
+header {
+    padding: 40px 0px;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.menu {
+    padding-top: 12px;
+    width: 60%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    padding-right: 100px;
+    float: left;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    display: block;
+}
+.top_menu ul li a:hover {
+    color: #000000;
+}
+
+/* header end */
+
+/* banner start */
+
+.banner_img{
+    width: 100%;
+}
+
+/* banner end */
